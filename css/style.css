@@ -786,20 +786,20 @@ select.form-control:not([size]):not([multiple]){
 
 @media only screen and (max-width: 480px) {
     /* Stili CSS da applicare per gli smartphone */
-	.menu-alto {
-		text-align:center;
-	}
 	.collapse{
-		display:none;
+		display:none !important;
+	}
+	.menu-alto {
+		text-align: center !important;
 	}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
     /* Stili CSS da applicare per i tablet */
-	.menu-alto {
-		text-align:center;
-	}
 	.collapse{
-		display:none;
+		display:none !important;
+	}
+	.menu-alto {
+		text-align: center !important;
 	}
 }
