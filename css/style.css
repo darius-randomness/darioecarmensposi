@@ -797,6 +797,9 @@ select.form-control:not([size]):not([multiple]){
 		text-align: center;
 		float:none !important;
 	}
+	.timeline-text-content{
+		text-align: left!important;
+	}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
@@ -811,5 +814,8 @@ select.form-control:not([size]):not([multiple]){
 	.menu-alto {
 		justify-content: center !important;
 		text-align: center !important;
+	}
+	.timeline-text-content{
+		text-align: left!important;
 	}
 }
