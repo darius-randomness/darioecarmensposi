@@ -793,12 +793,20 @@ select.form-control:not([size]):not([multiple]){
 		justify-content: center !important;
 		text-align: center !important;
 	}
+	.timeline-date-panel{
+		text-align: center;
+		justify-content: center !important;
+	}
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
     /* Stili CSS da applicare per i tablet */
 	.collapse{
 		display:none !important;
+	}
+	.timeline-date-panel{
+		text-align: center;
+		justify-content: center !important;
 	}
 	.menu-alto {
 		justify-content: center !important;
