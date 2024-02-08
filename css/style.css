@@ -790,6 +790,7 @@ select.form-control:not([size]):not([multiple]){
 		display:none !important;
 	}
 	.menu-alto {
+		justify-content: center !important;
 		text-align: center !important;
 	}
 }
@@ -800,6 +801,7 @@ select.form-control:not([size]):not([multiple]){
 		display:none !important;
 	}
 	.menu-alto {
+		justify-content: center !important;
 		text-align: center !important;
 	}
 }
