@@ -793,9 +793,9 @@ select.form-control:not([size]):not([multiple]){
 		justify-content: center !important;
 		text-align: center !important;
 	}
-	.timeline-date-panel{
+	.main-timeline-box .time-line-date-content p {
 		text-align: center;
-		justify-content: center !important;
+		float:none !important;
 	}
 }
 
@@ -804,9 +804,9 @@ select.form-control:not([size]):not([multiple]){
 	.collapse{
 		display:none !important;
 	}
-	.timeline-date-panel{
+	.main-timeline-box .time-line-date-content p {
 		text-align: center;
-		justify-content: center !important;
+		float:none !important;
 	}
 	.menu-alto {
 		justify-content: center !important;
