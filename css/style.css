@@ -782,3 +782,24 @@ select.form-control:not([size]):not([multiple]){
 	color: darkblue;
 	font-weight: 600;
 }
+
+
+@media only screen and (max-width: 480px) {
+    /* Stili CSS da applicare per gli smartphone */
+	.menu-alto {
+		text-align:center;
+	}
+	.collapse{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    /* Stili CSS da applicare per i tablet */
+	.menu-alto {
+		text-align:center;
+	}
+	.collapse{
+		display:none;
+	}
+}
